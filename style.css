@@ -89,7 +89,49 @@ label{
     width: 350px;
     margin-left: 70px;
     border-radius: 15px;
+    padding: 30px;
+}
+.rows{
+    display: block;
+    line-height: 15px;
+}
+.rowLeft{
+    display: block;
+    line-height: 0px;
+}
+.tipRow{
+    display: flex;
+    column-gap: 140px;
 }
 .totalRow{
-    display: inline-block;
+    display: flex;
+    column-gap: 160px;
+}
+.rows h5{
+    font-size: 10px;
+    font-weight: 400;
+    color: hsl(184, 14%, 56%);
+}
+.rows h4{
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
+.rows h1{
+    font-weight: 700;
+    text-align: right;
+    color: hsl(172, 67%, 45%);
+    font-size: 30px;
+}
+.reset{
+    background-color:hsl(172, 67%, 45%);
+    width: 100%;
+    border-radius: 5%;
+    font-weight: 700;
+    font-size: medium;
+    border: none;
+    height: 40px;
+    color: hsl(183, 100%, 15%);
+    margin-top: 70px;
+    margin-bottom: 0px;
 }
