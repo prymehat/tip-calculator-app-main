@@ -1,0 +1,86 @@
+/*Strong cyan: hsl(172, 67%, 45%)
+- Very dark cyan: hsl(183, 100%, 15%)
+- Dark grayish cyan: hsl(186, 14%, 43%)
+- Dark grayish cyan: hsl(184, 14%, 56%)
+- Light grayish cyan: hsl(185, 41%, 84%)
+- Light grayish cyan: hsl(189, 41%, 97%)
+- White: hsl(0, 0%, 100%)*/
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+*{
+    font-family: 'Space Mono', monospace;
+}
+body{
+    background-color:  hsl(185, 41%, 84%);
+    
+}
+.container{
+    width: 750px;
+    height: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    display: flex;
+    border-radius: 20px;
+    padding: 25px ;
+}
+.leftSide{
+    width: 320px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    background-color:hsl(189, 41%, 97%);
+    border: none;
+    font-size: 24px;
+    font-weight: bolder;
+    color:  hsl(183, 100%, 15%);
+    text-align: right;
+    display: block;
+    background-repeat: no-repeat;
+    outline: none;
+    background-position: 17px 8px;
+}
+label{
+    color: hsl(186, 14%, 43%);
+    font-weight: 700;
+}
+.billIn{
+    background-image: url('./images/icon-dollar.svg');
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.peopleIn{
+    background-image: url('./images/icon-person.svg');
+    margin-bottom: 30px;
+    margin-top: 10px;
+
+}
+.customIn{
+    width: 100%;
+    font-size:20px ;
+    padding:5px;
+}
+.tips{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 95px 95px 95px;
+    grid-template-rows: 40px 40px;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-bottom: 50px;
+}
+.tips button{
+    color:white;
+    background-color: hsl(183, 100%, 15%);
+    border: none;
+    border-radius:5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.tips button:active{
+    color:hsl(183, 100%, 15%);
+    background-color: hsl(172, 67%, 45%);
+}
